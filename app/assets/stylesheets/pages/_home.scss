@@ -1,0 +1,51 @@
+// Specific CSS for your home-page
+
+.conteneur {
+  max-height: 100vh;
+  margin: 0 !important;
+  //overflow: scroll;
+}
+
+section {
+  height: 100vh; /* ou une valeur appropriée */
+  transition: background-color 0.5s ease;
+}
+
+.text-container1{
+  padding-top: 140px;
+  text-align: center;
+}
+
+.main-title{
+  font-family: "peridot-pe-variable", sans-serif;
+  font-variation-settings: "ital" 0, "wdth" 85, "wght" 800;
+  font-size: 150px;
+}
+
+.subtitle-main1{
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.subtitle-main2{
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.white1 {
+  background-color: white;
+}
+
+.black1 {
+  background-color: black;
+  color: white;
+}
+
+.main-title2{
+  font-family: "peridot-pe-variable", sans-serif;
+  font-variation-settings: "ital" 0, "wdth" 85, "wght" 800;
+  font-size: 75px;
+}
