@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.text-animation {
+  padding-top: 160px;
+}
+.rotate {
+  font-family: "peridot-pe-variable", sans-serif;
+  font-variation-settings: "ital" 0, "wdth" 85, "wght" 800;
+  font-size: 160px;
+  overflow:hidden;
+  position:relative;
+  z-index:30;
+  text-align: center;
+  margin:0 !important;
+}
+
+.inner {
+  height:170px;
+  -webkit-transition:-webkit-transform 0.3s ease;
+  -webkit-backface-visibility:hidden;
+}
+
+p {
+  margin:0;
+  padding:0;
+  height:170px;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  background-color: black;
+  // background-image:-webkit-linear-gradient(#FA2300,#E1037C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

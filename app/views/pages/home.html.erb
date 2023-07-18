@@ -1,8 +1,12 @@
 <%= render 'partials/navbar' %>
+<%= render 'partials/menu' %>
+
 
 <div class="conteneur">
   <section id="section1" class="white1">
-    <div class="text-container1">
+      <%= render 'partials/text_animation'%>
+    <%#Texte original %>
+    <%# <div class="text-container1">
       <h3 class = "subtitle-main1">Full-Stack Developer</h3>
       <h1 class ="main-title">RAYAN ANSER</h1>
       <h3 class = "subtitle-main2">and doing other stuff</h3>
@@ -10,7 +14,7 @@
         <i class="fa-solid fa-chevron-down"></i>
         <p id="swipe">SWIPE</p>
       </div>
-    </div>
+    </div> %>
   </section>
 
   <section id="section2" class="black1">
@@ -20,22 +24,25 @@
   </section>
 
   <section id="section3" class="white1">
-    <div class="section2">
+    <div class="section3">
       <h2 class=main-title2>SAM</h2>
     </div>
-    <div class="rotate center-vertical">
-      <div id="inner" class="inner" data-controller="animation">
-        <p>Hello.</p>
-        <p>I</p>
-        <p>Am</p>
-        <p>Sofiya</p>
-        <p>And</p>
-        <p>I'm</p>
-        <p>A</p>
-        <p>UX</p>
-        <p>Designer</p>
-        <p>Hello.</p>
-      </div>
+    <div class="img-site">
+    <%= link_to "https://www.samsuperaimusicgenerator.site/" do %>
+      <%= image_tag(image_path("img_sam.png"), alt: "Image du site internet SAM") %>
+    <% end %>
+    </div>
+  </section>
+
+  <section id="section4" class="black1">
+    <div class="section4">
+      <h2 class=main-title2>SAM</h2>
+    </div>
+  </section>
+
+  <section id="section5" class="white1">
+    <div class="section2">
+      <h2 class=main-title2>SAM</h2>
     </div>
   </section>
 
