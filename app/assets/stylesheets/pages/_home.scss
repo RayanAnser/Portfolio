@@ -1,5 +1,12 @@
 // Specific CSS for your home-page
 
+
+body, html {
+  margin: 0;
+  padding: 0;
+  border: 0; // Juste au cas où il y aurait une bordure
+}
+
 .conteneur {
   max-height: 100vh;
   margin: 0 !important;
@@ -64,7 +71,7 @@ section {
   position: relative;
   width: 425px;
   height: auto;
-  right : 0px;
+  right : -35px;
   top : -325px;
 }
 

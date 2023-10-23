@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
 
-$transition-time: 2.3s;
+$transition-time: 1.2s;
 
 // body{
 //   font-family: 'Oswald', sans-serif;
@@ -40,6 +40,9 @@ $transition-time: 2.3s;
         transform: translateZ(60px);
       }
       a{
+        transform: translateZ(-60px) rotatey(-180deg);
+      }
+      .description{
         transform: translateZ(-60px) rotatey(-180deg);
       }
     }
@@ -80,13 +83,13 @@ $transition-time: 2.3s;
       background: rgba(0,0,0,.4);
     }
     &.item-a{
-      background-image: url('https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=600&q=80');
+      background-image: url("https://images.pexels.com/photos/4005567/pexels-photo-4005567.jpeg?cs=srgb&dl=pexels-luis-quintero-4005567.jpg&fm=jpg&_gl=1*1s45po2*_ga*MjkyMTU2Mzk2LjE2ODQ0ODk5NDA.*_ga_8JE65Q40S6*MTY5ODA2MTQ3OS4yOS4xLjE2OTgwNjE3OTkuMC4wLjA.");
     }
     &.item-b{
-      background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=600&q=80');
+      background-image: url('https://unsplash.com/photos/jmjxl6ms1vA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8VU5PfGZyfDB8MXx8fDE2OTgwNjE4NTZ8MA&force=true');
     }
     &.item-c{
-      background-image: url('https://images.unsplash.com/photo-1525945518069-b924046d1385?auto=format&fit=crop&w=600&q=80');
+      background-image: url('https://unsplash.com/photos/x6vyL4YKP9c/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fEFJUkJOQnxmcnwwfDF8fHwxNjk4MDYxODgyfDA&force=true');
     }
     h1{
       font-weight: 600;
@@ -115,6 +118,7 @@ $transition-time: 2.3s;
   }
   .card-back{
     position: absolute;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     background: #0b0f08;
@@ -143,3 +147,24 @@ $transition-time: 2.3s;
     }
   }
 }
+.description {
+  transform-style: preserve-3d;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.3em;
+  color: white;
+  padding: 14px 32px;
+  outline: none;
+  text-decoration: none;
+//   transform-style: preserve-3d;
+//   transition: ease transform $transition-time, ease background .5s;
+//   transform: translateZ(-1px) rotatey(-180deg);
+//   background: transparent;
+//   border: 1px solid white;
+//   font-weight: 200;
+//   font-size: 1.3em;
+//   color: white;
+//   padding: 14px 32px;
+//   outline: none;
+//   text-decoration: none;
+ }

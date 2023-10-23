@@ -20,7 +20,7 @@
   -webkit-backface-visibility:hidden;
 }
 
-p {
+.text-anim {
   margin:0;
   padding:0;
   height:170px;
@@ -31,3 +31,18 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+// @keyframes rotateInLoop {
+//   0% { transform: rotate(0deg); }
+//   100% { transform: rotate(360deg); }
+// }
+
+.rotateInLoop {
+  animation: rotateInLoop 5s infinite;
+}
+
+// #inner {
+//   position: relative;
+//   top: 0;
+//   transition: top 0.8s;
+// }
