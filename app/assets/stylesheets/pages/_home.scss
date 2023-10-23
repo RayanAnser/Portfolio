@@ -1,11 +1,18 @@
 // Specific CSS for your home-page
 
 
-body, html {
+body, html, *, *::before, *::after {
   margin: 0;
   padding: 0;
-  border: 0; // Juste au cas où il y aurait une bordure
+  border: none;
+  box-sizing: border-box;
 }
+
+// Pour débuguer
+// * {
+//   border: 1px solid red !important;
+// }
+
 
 .conteneur {
   max-height: 100vh;
@@ -59,29 +66,7 @@ section {
   top: 20px;
 }
 
-.img-site-droit img {
-  position: relative;
-  width: 425px;
-  height: auto;
-  left : 825px;
-  top : -325px;
-}
 
-.img-site-gauche img {
-  position: relative;
-  width: 425px;
-  height: auto;
-  right : -35px;
-  top : -325px;
-}
-
-
-.img-site {
-  width: 700px;
-  height: auto;
-  left : 700px;
-  top : -50px;
-}
 
 
 .divider-white {
@@ -104,7 +89,8 @@ section {
     font-family: "peridot-pe-variable", sans-serif;
     font-variation-settings: "ital" 0, "wdth" 50, "wght" 500;
     font-size: 50px;
-    left: 1225px;
+    text-align: right;
+    // left: 1225px;
     top: 20px;
   }
 
@@ -113,6 +99,7 @@ section {
     font-family: "peridot-pe-variable", sans-serif;
     font-variation-settings: "ital" 0, "wdth" 85, "wght" 800;
     font-size: 75px;
-    left: 1150px;
+    text-align: right;
+    // left: 1150px;
     top: 20px;
   }

@@ -1,1 +1,25 @@
+.img-site-droit img {
+  position: relative;
+  width: 425px;
+  height: auto;
+  left : 825px;
+  top : -370px;
+  border-radius: 1%;
+}
 
+.img-site-gauche img {
+  position: relative;
+  width: 425px;
+  height: auto;
+  right : -35px;
+  top : -370px;
+  border-radius: 1%;
+}
+
+
+.img-site {
+  width: 700px;
+  height: auto;
+  left : 700px;
+  top : -50px;
+}
