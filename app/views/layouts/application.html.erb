@@ -9,13 +9,19 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+
     <%= javascript_importmap_tags %>
     <%# <%= javascript_pack_tag 'text_animation_controller' %>
     <link rel="stylesheet" href="https://use.typekit.net/gbf3brf.css">
     <link rel="stylesheet" href="https://use.typekit.net/gbf3brf.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <%= yield %>
   </body>
 </html>

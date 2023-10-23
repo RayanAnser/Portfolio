@@ -1,12 +1,12 @@
 <%= render 'partials/navbar' %>
-<%= render 'partials/menu' %>
+<%# <%= render 'partials/menu' %>
 
 
 <div class="conteneur">
-  <section id="section1" class="white1">
+  <section id="section1" class="white1 menu-section">
       <%= render 'partials/text_animation'%>
-    <%#Texte original %>
-    <%# <div class="text-container1">
+    <%# Texte original
+     <div class="text-container1">
       <h3 class = "subtitle-main1">Full-Stack Developer</h3>
       <h1 class ="main-title">RAYAN ANSER</h1>
       <h3 class = "subtitle-main2">and doing other stuff</h3>
@@ -14,36 +14,119 @@
         <i class="fa-solid fa-chevron-down"></i>
         <p id="swipe">SWIPE</p>
       </div>
-    </div> %>
+    </div>  %>
   </section>
 
-  <section id="section2" class="black1">
+  <section id="section2" class="black1 menu-section">
+  <div class="container">
     <div class="section2">
       <h2 class=main-title2>PROJECTS</h2>
+      <hr class = divider-white>
+      <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="cover item-a">
+            <h1>SAM<br></h1>
+            <span class="price">$79</span>
+            <div class="card-back">
+              <a href="#">Add to cart</a>
+              <a href="#">View detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="cover item-b">
+            <h1>UNO<br>Game</h1>
+            <span class="price">$35</span>
+            <div class="card-back">
+              <a href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="cover item-c">
+            <h1>Marijuana<br>Chill</h1>
+            <span class="price">$155</span>
+            <div class="card-back">
+              <a href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    </div>
     </div>
   </section>
 
+
   <section id="section3" class="white1">
+  <div class="container" data_aos="fade-in">
     <div class="section3">
-      <h2 class=main-title2>SAM</h2>
+      <h2 class=main-title2>Work</h2>
+      <hr>
     </div>
-    <div class="img-site">
-    <%= link_to "https://www.samsuperaimusicgenerator.site/" do %>
-      <%= image_tag(image_path("img_sam.png"), alt: "Image du site internet SAM") %>
-    <% end %>
+      <h2 class="inside-title">SAM</h2>
+      <p class="project-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    <div class="img-site-droit">
+      <%= image_tag(image_path("monteur_vertical.jpg"), alt: "Image d'un monteur vidéo'", class:"img-monteur") %>
+      <%# <%= link_to "https://www.samsuperaimusicgenerator.site/", target:"_blank" do %>
+        <%# <%= image_tag(image_path("img_sam.png"), alt: "Image du site internet SAM") %>
+      <%# <% end %>
     </div>
+  </div>
   </section>
 
   <section id="section4" class="black1">
+    <div class="container">
     <div class="section4">
-      <h2 class=main-title2>SAM</h2>
+      <h2 class=main-title2-right>Work</h2>
+      <hr>
     </div>
+      <h2 class="inside-title-right">UNO</h2>
+      <p class="project-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    <div class="img-site-gauche">
+      <%= image_tag(image_path("monteur_vertical.jpg"), alt: "Image d'un monteur vidéo'", class:"img-monteur") %>
+      <%# <%= link_to "https://www.samsuperaimusicgenerator.site/", target:"_blank" do %>
+        <%# <%= image_tag(image_path("img_sam.png"), alt: "Image du site internet SAM") %>
+      <%# <% end %>
+    </div>
+  </div>
   </section>
 
   <section id="section5" class="white1">
-    <div class="section2">
-      <h2 class=main-title2>SAM</h2>
+    <div class="container">
+    <div class="section4">
+      <h2 class=main-title2>Work</h2>
+      <hr>
     </div>
+      <h2 class="inside-title">AirBnb Lookalike</h2>
+      <p class="project-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    <div class="img-site-droit">
+      <%= image_tag(image_path("monteur_vertical.jpg"), alt: "Image d'un monteur vidéo'", class:"img-monteur") %>
+      <%# <%= link_to "https://www.samsuperaimusicgenerator.site/", target:"_blank" do %>
+        <%# <%= image_tag(image_path("img_sam.png"), alt: "Image du site internet SAM") %>
+      <%# <% end %>
+    </div>
+  </div>
   </section>
 
 </div>

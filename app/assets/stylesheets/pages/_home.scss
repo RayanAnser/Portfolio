@@ -44,13 +44,68 @@ section {
   color: white;
 }
 
-.main-title2{
+.main-title2 {
+  position: relative;
   font-family: "peridot-pe-variable", sans-serif;
-  font-variation-settings: "ital" 0, "wdth" 85, "wght" 800;
-  font-size: 75px;
+  font-variation-settings: "ital" 0, "wdth" 50, "wght" 500;
+  font-size: 50px;
+  top: 20px;
 }
 
-.img-site img {
-  width: 500px;
+.img-site-droit img {
+  position: relative;
+  width: 425px;
   height: auto;
+  left : 825px;
+  top : -325px;
 }
+
+.img-site-gauche img {
+  position: relative;
+  width: 425px;
+  height: auto;
+  right : 0px;
+  top : -325px;
+}
+
+
+.img-site {
+  width: 700px;
+  height: auto;
+  left : 700px;
+  top : -50px;
+}
+
+
+.divider-white {
+  border-top: 2px solid;
+  color: white;
+}
+
+
+.inside-title {
+    position: relative;
+    font-family: "peridot-pe-variable", sans-serif;
+    font-variation-settings: "ital" 0, "wdth" 85, "wght" 800;
+    font-size: 75px;
+    top: 20px;
+  }
+
+
+  .main-title2-right {
+    position: relative;
+    font-family: "peridot-pe-variable", sans-serif;
+    font-variation-settings: "ital" 0, "wdth" 50, "wght" 500;
+    font-size: 50px;
+    left: 1225px;
+    top: 20px;
+  }
+
+  .inside-title-right {
+    position: relative;
+    font-family: "peridot-pe-variable", sans-serif;
+    font-variation-settings: "ital" 0, "wdth" 85, "wght" 800;
+    font-size: 75px;
+    left: 1150px;
+    top: 20px;
+  }
