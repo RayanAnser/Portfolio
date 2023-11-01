@@ -5,6 +5,7 @@
 <div class="conteneur">
   <section id="section1" class="white1 menu-section">
       <%= render 'partials/text_animation'%>
+      <%# <button><%= render 'partials/menu' %></button>
     <%# Texte original
      <div class="text-container1">
       <h3 class = "subtitle-main1">Full-Stack Developer</h3>
@@ -78,15 +79,16 @@
     <div>
       <h2 class="inside-title">SAM</h2>
       <p class="project-description" data-aos="fade-right">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          SAM est un outil pratique pour les créateurs de contenu à la recherche de musiques libres de droit. Il vous suffit de décrire <br>
+          votre vidéo, et SAM utilisera cette description pour vous proposer des morceaux musicaux qui correspondent à l'ambiance de votre projet <br>
+          Plus besoin de vous soucier des droits d'auteur. SAM simplifie la recherche de la bande sonore parfaite pour vos vidéos.
       </p>
-      <button class="button-53" role="button">See Project</button>
+      <a href="https://github.com/RayanAnser/SAM" target="_blank">
+      <button class="button-53" role="button">See Project on GitHub</button>
+      </a>
     </div>
     <div class="img-site-droit" data-aos="fade-left">
-      <%= link_to "https://github.com/RayanAnser/Uno", target:"_blank" do
+      <%= link_to "https://github.com/RayanAnser/SAM", target:"_blank" do
         # image_tag(image_path("monteur_vertical.jpg"), alt: "Image d'un monteur vidéo'", class:"img-monteur")
         image_tag("https://unsplash.com/photos/FhZEpxtTI_Y/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8TW9udGFnZSUyMHZpZCVDMyVBOW98ZnJ8MHx8fHwxNjk4MDYxNjI3fDA&force=true")
       end %>
@@ -102,12 +104,13 @@
     </div>
       <h2 class="inside-title-right">UNO</h2>
       <p class="right-white-project-description" data-aos="fade-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Mon projet personnel consiste en un jeu de Uno jouable directement dans le terminal. Cette version minimaliste du jeu classique <br>
+       vous permet de vous amuser rapidement, que ce soit en solo contre l'IA. C'est une démonstration de mes compétences en back-end <br>
+       et de mon attrait pour les jeux de cartes. (Si vous voulez jouer il vous suffit de lancer deckgenerator.rb)
       </p>
-      <button class="button-54" role="button">See Project</button>
+      <a href="https://github.com/RayanAnser/Uno" target="_blank">
+      <button class="button-54" role="button">See Project on GitHub</button>
+      </a>
     <div class="img-site-gauche" data-aos="fade-right">
       <%= link_to "https://github.com/RayanAnser/Uno", target:"_blank" do
         # image_tag(image_path("monteur_vertical.jpg"), alt: "Image d'un monteur vidéo'", class:"img-monteur")
@@ -123,16 +126,19 @@
       <h2 class=main-title2>Work</h2>
       <hr>
     </div>
-      <h2 class="inside-title">AirBnb Lookalike</h2>
+      <h2 class="inside-title">AIRBNB LOOKALIKE</h2>
       <p class="project-description" data-aos="fade-right">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Dans le cadre de mon apprentissage en développement web, j'ai créé un clone de la célèbre plateforme Airbnb. <br>
+          Cette application web vous permet d'explorer une variété de logements à travers une interface conviviale. <br>
+          Vous pouvez rechercher, affiner vos choix et consulter les détails des logements, le tout en offrant une expérience similaire <br>
+          à celle d'Airbnb. Mon objectif était de mettre en pratique mes compétences en conception et développement web pour créer une <br>
+          interface efficace et esthétique pour la recherche de logements.
       </p>
-      <button class="button-53" role="button">See Project</button>
-    <div class="img-site-droit" data-aos="fade-left">
-      <%= link_to "https://github.com/RayanAnser/Uno", target:"_blank" do
+      <a href="https://github.com/RayanAnser/SolBnb" target="_blank">
+      <button class="button-53" role="button">See Project on GitHub</button>
+      </a>
+    <div class="img-site-droit-airbnb" data-aos="fade-left">
+      <%= link_to "https://github.com/RayanAnser/SolBnb", target:"_blank" do
         # image_tag(image_path("monteur_vertical.jpg"), alt: "Image d'un monteur vidéo'", class:"img-monteur")
         image_tag("https://unsplash.com/photos/x6vyL4YKP9c/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fEFJUkJOQnxmcnwwfDF8fHwxNjk4MDYxODgyfDA&force=true")
       end %>
@@ -148,16 +154,20 @@
     </div>
       <h2 class="inside-title-right"></h2>
       <p class="left-white-project-description" data-aos="fade-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Salut ! Je suis Rayan, un ancien étudiant en commerce qui travaillait dans <br>
+           la vidéo et a fait un virage à 180 degrés vers le monde du développement web. <br> <br>
+          Ma passion pour la tech m'a conduit à apprendre à coder. C'était l'une des meilleures que j'aie jamais prises. <br>
+          Mon parcours en école de commerce m'a apporté une perspective unique pour aborder le développement web. J'ai la capacité <br>
+          de comprendre les besoins des entreprises tout en utilisant mes compétences en codage pour créer des solutions web adaptées.
       </p>
       <p class="right-white-project-description" data-aos="fade-right">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          En dehors du code, je suis un amateur d'improvisation. L'improvisation est ma façon de laisser libre cours à ma créativité, et cette pensée agile se reflète <br>
+          également dans mon approche du développement. <br>
+          Si vous êtes intéressé par une collaboration, un projet intéressant ou si vous avez simplement envie de discuter de nouvelles idées, n'hésitez pas à me contacter
+          par e-mail. <br>
+          Je suis toujours ouvert aux nouvelles opportunités. <br>
+          <br> <br> <br>
+          Contact : rayan.anser@hotmail.fr <br>
       </p>
   </div>
   </section>

@@ -8,6 +8,9 @@ body, html, *, *::before, *::after {
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
 // Pour débuguer
 // * {
 //   border: 1px solid red !important;
